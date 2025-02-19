@@ -1,0 +1,36 @@
+/* Styles for the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Styles for the header row */
+thead th {
+  background-color: brown;
+  font-weight: bold;
+	color: white;
+}
+
+/* Styles for the data rows */
+tbody tr:nth-child(even) {
+  background-color: #sandybrown;
+}
+
+/* Naming of rows and columns */
+thead th:nth-child(1),
+tbody td:nth-child(1) {
+  /* Style for the first column */
+}
+
+thead th:nth-child(2),
+tbody td:nth-child(2) {
+  /* Style for the second column */
+}
+
+/* And so on for the remaining columns */
